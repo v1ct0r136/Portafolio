@@ -8,17 +8,28 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-100 text-gray-900">
-    <header class="bg-blue-600 text-white p-4">
+    <header class="flex items-center bg-blue-600 text-white p-4 ml-4">
 
-        <nav class="menu">
-            <ul>
+        <img src="images/Foto victor.jfif" class= "profile_image rounded-full h-auto rounded- shadow-lg w-1/12">
+
+        <nav class="menu w-1/4">
+            <ul class="flex flex-col space-y-2">
               <li><a href="#">Inicio</a></li>
               <li><a href="#">Sobre mí</a></li>
               <li><a href="#">Contacto</a></li>
             </ul>
           </nav>
 
-        <h1 class="text-xl font-bold">Bienvenido a mi sitio</h1>
+        <nav class="habilidades">
+          <ul>
+            <h1>Habilidades</h1>
+            <li>HTML, CSS, básico de Tailwind.</li>
+            <li>JavaScript en aprendizaje.</li>
+            <li>Arduino en aprendizaje.</li>
+            <li>Conocimientos básicos de Python, MySQL, y redes.</li>
+          </ul>
+        </nav>
+
     </header>
     <main class="p-4">
 
@@ -26,14 +37,17 @@
             <h1>Proyectos</h1>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                 <div class="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition duration-300">
+                  <img src="images/Card 1.jpg" href="#" class="w-full h-auto rounded-lg shadow-md" height=1000px width=700px alt="Primer Sitio Web">
                   <h2 class="text-xl font-bold mb-2">Card 1</h2>
                   <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
                 <div class="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition duration-300">
+                  <img src="images/Card 2.jpg" href="#" class="w-full h-auto rounded-lg shadow-md" height=1000px width=500px alt="Segundo Sitio Web">
                   <h2 class="text-xl font-bold mb-2">Card 2</h2>
                   <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
                 <div class="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition duration-300">
+                  <img src="images/Card 1.jpg" href="#" class="w-full h-auto rounded-lg shadow-md" height=1000px width=500px alt="Tercer Sitio Web">
                   <h2 class="text-xl font-bold mb-2">Card 3</h2>
                   <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                 </div>
