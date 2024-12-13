@@ -2,6 +2,17 @@
     margin-left: 40px;
 }
 
+.body_box {
+    background-color: #CDEDFD;
+}
+.header_box {
+    background-color: #1C2833;
+}
+
+.information_header_link:hover {
+    color: #B6DCFE;
+}
+
 .habilidades {
     position: relative;
     left: 500px;
