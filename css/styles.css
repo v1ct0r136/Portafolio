@@ -1,19 +1,41 @@
-.information_header {
-    margin-left: 40px;
-}
-
+/* Body con estilo de pantalla retro */
 .body_box {
-    background-color: #CDEDFD;
-}
-.header_box {
-    background-color: #1C2833;
+    background-color: black;
+    color: #00FF00; /* Letra verde para estilo retro */
+    font-family: "Roboto Mono", monospace;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 20px;
+    border: 10px solid #00FF00; /* Borde verde para el marco de la pantalla */
+    padding: 10px;
+    margin: 0 auto;
+    max-width: 90%; /* Para que se vea como una pantalla */
 }
 
-.information_header_link:hover {
-    color: #B6DCFE;
+/* Estilo del footer */
+footer {
+    background-color: #333;
+    color: #00FF00; /* Texto verde retro */
 }
 
-.habilidades {
-    position: relative;
-    left: 500px;
+/* Links de la información */
+.information_link:hover {
+    color: #00FF00; /* Verde para el hover */
+}
+
+/* Contenido de los cards */
+.bg-white {
+    background-color: #333; /* Fondo gris oscuro */
+    color: #00FF00; /* Texto verde */
+}
+
+/* Bordes y sombras de las cards */
+.bg-white:hover {
+    border: 2px solid #00FF00; /* Borde verde cuando se pasa el ratón */
+    box-shadow: 0 0 15px #00FF00; /* Sombra verde */
+}
+
+/* Ajustes adicionales de las cards */
+.images img {
+    border: 2px solid #00FF00; /* Bordes de las imágenes */
 }

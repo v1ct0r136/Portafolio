@@ -6,22 +6,16 @@
     <link href="css/styles.css" rel="stylesheet">
     <title>Mi Proyecto Web</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
 </head>
 <body class="body_box bg-gray-100 text-gray-900">
     <header class="header_box flex items-center text-white p-4 ml-4">
 
-        <img src="images/Foto victor.jfif" class= "profile_image rounded-full h-auto rounded- shadow-lg w-1/12">
+        <!--<img src="images/Foto victor.jfif" class= "profile_image rounded-full h-auto rounded- shadow-lg w-1/12"> -->
 
-        <nav class="information_header w-1/4">
-            <ul class="flex flex-col space-y-2">
-              <li><a href="#" class="information_header_link">Inicio</a></li>
-              <li><a href="#" class="information_header_link">Sobre mí</a></li>
-              <li>Email: valencialondonovictormanuel@gmail.com</li>
-              <li>Contacto</li>
-            </ul>
-          </nav>
-
-        <nav class="habilidades">
+        <!--<nav class="habilidades">
           <ul>
             <h1>Habilidades</h1>
             <li>HTML, CSS, básico de Tailwind.</li>
@@ -29,34 +23,53 @@
             <li>Arduino en aprendizaje.</li>
             <li>Conocimientos básicos de Python, MySQL, y redes.</li>
           </ul>
-        </nav>
+        </nav> -->
 
     </header>
-    <main class="p-4">
+    
+    <main class="grid grid-cols-3 gap-4 p-4">
+      
+      <nav class="information w-full bg-gray-200 p-4 rounded">
 
-        <div class="Proyectos" id="Proyectos">
-            <h1>Proyectos</h1>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-                <div class="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition duration-300">
-                  <img src="images/Card 2.jpg" href="#" class="w-full h-auto rounded-lg shadow-md" height=1000px width=700px alt="Primer Sitio Web">
-                  <h2 class="text-xl font-bold mb-2">Card 1</h2>
-                  <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-                <div class="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition duration-300">
-                  <img src="images/Card 2.jpg" href="#" class="w-full h-auto rounded-lg shadow-md" height=1000px width=500px alt="Segundo Sitio Web">
-                  <h2 class="text-xl font-bold mb-2">Card 2</h2>
-                  <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-                <div class="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition duration-300">
-                  <img src="images/Card 2.jpg" href="#" class="w-full h-auto rounded-lg shadow-md" height=1000px width=500px alt="Tercer Sitio Web">
-                  <h2 class="text-xl font-bold mb-2">Card 3</h2>
-                  <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
-              </div>
+        <ul class="flex flex-col space-y-2">
+          <li><a href="#" class="information_link hover:text-green-600">Sobre mí</a></li>
+          <li><a href="#" class="information_link hover:text-green-600">Habilidades</a></li>
+
+          <li>Email: valencialondonovictormanuel@gmail.com</li>
+          <li>Contacto</li>
+
+        </ul>
+
+      </nav>
+    
+      
+      <nav class="Proyectos col-span-2 bg-gray-100 p-4 rounded">
+
+        <h1 class="text-xl font-bold mb-4">Proyectos</h1>
+        <div class="images grid grid-cols-2 gap-4">
+          <div class="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition duration-300">
+            <img src="images/Card 2.jpg" class="w-full h-auto rounded-lg shadow-md" alt="Primer Sitio Web">
+            <h2 class="text-xl font-bold mb-2">Card 1</h2>
+            <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition duration-300">
+            <img src="images/Card 2.jpg" class="w-full h-auto rounded-lg shadow-md" alt="Segundo Sitio Web">
+            <h2 class="text-xl font-bold mb-2">Card 2</h2>
+            <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+          <div class="bg-white rounded-lg shadow-md p-4 hover:shadow-lg transition duration-300">
+            <img src="images/Card 2.jpg" class="w-full h-auto rounded-lg shadow-md" alt="Tercer Sitio Web">
+            <h2 class="text-xl font-bold mb-2">Card 3</h2>
+            <p class="text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+
         </div>
+
+      </nav>
 
 
     </main>
+    
     <footer class="bg-gray-800 text-white p-4 text-center">
         &copy; 2024 Mi Portafolio
     </footer>
