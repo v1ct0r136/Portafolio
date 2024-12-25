@@ -20,6 +20,10 @@
         gap: 10px; /* Reduce el espaciado */
 
     }
+
+    .profile_image {
+        max-width: 30%;
+    }
 }
 
 @media (max-width: 480px) { /* Pantallas pequeñas o móviles */
@@ -77,9 +81,12 @@ main {
 
 /* Estilo del footer */
 footer {
-    margin: 10px;
-    background-color: #333;
-    color: #00FF00; /* Texto verde retro */
+    margin: 30px;
+    max-height: 20%;
+}
+
+.information {
+    border: 2px solid #00FF00;
 }
 
 .information_link {
@@ -90,22 +97,19 @@ footer {
 
 /* Links de la información */
 .information_link:hover {
+    border: 2px solid #00FF00;
+    background-color: #00FF00;
     color: #009400; /* Verde para el hover */
-}
-
-/* Contenido de los cards */
-.bg-white {
-    background-color: #333; /* Fondo gris oscuro */
-    color: #00FF00; /* Texto verde */
-}
-
-/* Bordes y sombras de las cards */
-.bg-white:hover {
-    border: 2px solid #00FF00; /* Borde verde cuando se pasa el ratón */
-    box-shadow: 0 0 15px #00FF00; /* Sombra verde */
 }
 
 .images img:hover {
     border: 2px solid #00FF00;
-    box-shadow: #00FF00;
+    background-color: #00FF00;
+    color: white;
+}
+
+.proyectos a:hover {
+    border: 2px solid #00FF00;
+    background-color: #00FF00;
+    color: white;
 }
