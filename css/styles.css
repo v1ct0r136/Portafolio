@@ -1,21 +1,92 @@
 .body_box {
+    height: 100vh;
+    overflow: hidden;
     background-color: black;
     color: #00FF00; /* Letra verde para estilo retro */
-    font-family: "Roboto Mono", monospace;
+    font-family: "Press Start 2P", monospace;
     display: grid;
+    grid-template-rows: auto 1fr auto;
     grid-template-columns: 1fr 3fr;
     gap: 20px;
-    border: 10px solid #00FF00; /* Borde verde para el marco de la pantalla */
-    padding: 10px;
+    padding: 0;
     margin: 0 auto;
-    max-width: 90%; /* Para que se vea como una pantalla */
+    max-width: 100%; /* Para que se vea como una pantalla */
+}
+
+@media (max-width: 768px) { /* Tablets y pantallas medianas */
+    .body_box {
+        grid-template-rows: auto 1fr auto;
+        grid-template-columns: 1fr; /* Cambia a una sola columna */
+        gap: 10px; /* Reduce el espaciado */
+
+    }
+}
+
+@media (max-width: 480px) { /* Pantallas pequeñas o móviles */
+    .body_box {
+        padding: 5px; /* Reduce el padding */
+        border-width: 5px; /* Reduce el grosor del borde */
+    }
+}
+
+main {
+    border: 2px solid #00FF00;
+    padding: 10px;
+    margin: 10px;
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #000;
+    border: 2px solid #00FF00;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00FF00;
+    border: 2px solid #000;
+    border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #009400;
+}
+
+@media (max-width: 768px) {
+    ::-webkit-scrollbar {
+        width: 8px;
+    }
+    ::-webkit-scrollbar-thumb {
+        border-radius: 4px;
+    }
+}
+
+@media (max-width: 480px) {
+    ::-webkit-scrollbar {
+        width: 6px;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #00CC00;
+        border: none;
+    }
 }
 
 /* Estilo del footer */
 footer {
+    margin: 10px;
     background-color: #333;
     color: #00FF00; /* Texto verde retro */
 }
+
+.information_link {
+    color: #00FF00;
+    text-decoration: none;
+}
+
 
 /* Links de la información */
 .information_link:hover {
