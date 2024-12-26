@@ -1,0 +1,39 @@
+{
+    "proyectos": [
+        {
+            "nombre": "Food Truck",
+            "fecha": "2024",
+            "descripcion": "Sitio de comidas rápidas creado con HTML, CSS y JavaScript."
+        },
+        {
+            "nombre": "Agrosierras",
+            "fecha": "2024",
+            "descripcion": "Sitio web para una empresa agrícola con HTML, CSS y JavaScript."
+        },
+        {
+            "nombre": "Helados Chela",
+            "fecha": "2023",
+            "descripcion": "Sitio de comidas rápidas creado con HTML, CSS y JavaScript."
+        },
+        {
+            "nombre": "Helados Chela",
+            "fecha": "2023",
+            "descripcion": "Sitio de comidas rápidas creado con HTML, CSS y JavaScript."
+        },
+        {
+            "nombre": "Helados Chela",
+            "fecha": "2023",
+            "descripcion": "Sitio de comidas rápidas creado con HTML, CSS y JavaScript."
+        },
+        {
+            "nombre": "Helados Chela",
+            "fecha": "2023",
+            "descripcion": "Sitio de comidas rápidas creado con HTML, CSS y JavaScript."
+        },
+        {
+            "nombre": "Helados Chela",
+            "fecha": "2023",
+            "descripcion": "Sitio de comidas rápidas creado con HTML, CSS y JavaScript."
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="assets/css/retro.css" rel="stylesheet">
+    <title>Mi Proyecto Web</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body class="body_box">
+    <header class="header_box flex items-center text-white p-4 ml-4">
+        <img src="assets/images/color-verde-de-perfil-icono-un-con-círculo-oscuro-y-fondo-blanco-194702090.webp" class="profile_image rounded-full h-auto rounded-shadow-lg w-full">
+    </header>
+    
+    <main class="grid-cols-3 gap-4 p-4">
+        <nav class="information w-full p-4 rounded">
+            <ul class="flex flex-col space-y-2">
+                <li><a href="#" class="information_link">Sobre mí</a></li>
+                <li><a href="#" class="information_link">Habilidades</a></li>
+                <li>Email: valencialondonovictormanuel@gmail.com</li>
+            </ul>
+        </nav>
+
+        <nav class="Proyectos col-span-2 p-4 rounded">
+            <h1 class="text-xl font-bold mb-4">Proyectos</h1>
+            <div class="proyectos grid grid-cols-2 gap-4">
+                <!-- Los proyectos se cargarán dinámicamente aquí -->
+            </div>
+        </nav>
+    </main>
+    
+    <footer class="text-green p-4 text-center">
+        &copy; 2024 Mi Portafolio
+    </footer>
+
+    <!-- Vincula el script.js -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
